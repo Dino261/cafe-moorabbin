@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Moorabbin Coffee Co. Visit us at 123 Main Street, Moorabbin or send us a message. Open 7 days a week.">
+    <title>Contact - Moorabbin Coffee Co.</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav class="navbar" aria-label="Main navigation">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="images/moorabbincoffeeco-logo-color.svg" alt="Moorabbin Coffee Co.">
+                    <span>MoorabbinCoffeeCo</span>
+                </div>
+                <div class="hamburger">
+                    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle mobile menu">
+                    <label for="menu-toggle" class="hamburger-label">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </label>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="menu.html" class="nav-link">Menu</a></li>
+                        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contact Header -->
+        <section class="contact-header" aria-labelledby="contact-heading">
+            <div class="container">
+                <h1 id="contact-heading">Contact Us</h1>
+                <p>Have a question? We'd love to hear from you</p>
+            </div>
+        </section>
+
+        <!-- Contact Content -->
+        <section class="contact-content">
+            <h2 class="sr-only">Contact Information</h2>
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Information -->
+                    <article class="contact-info">
+                        <h3>Contact Information</h3>
+                        
+                        <div class="info-card">
+                            <div class="info-icon" aria-hidden="true">📍</div>
+                            <div class="info-content">
+                                <h4>Address</h4>
+                                <address>
+                                    <p>123 Main Street<br>Moorabbin, VIC 3189</p>
+                                </address>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon" aria-hidden="true">🕐</div>
+                            <div class="info-content">
+                                <h4>Business Hours</h4>
+                                <p>Monday - Friday: 5:00 AM - 4:00 PM<br>
+                                   Saturday: 6:00 AM - 3:00 PM<br>
+                                   Sunday: 7:00 AM - 3:00 PM</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon" aria-hidden="true">📞</div>
+                            <div class="info-content">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+61312345678">(03) 1234 5678</a></p>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon" aria-hidden="true">✉️</div>
+                            <div class="info-content">
+                                <h4>Email</h4>
+                                <p><a href="mailto:hello@moorabbincoffee.com">hello@moorabbincoffee.com</a></p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Contact Form -->
+                    <article class="contact-form-section" aria-labelledby="form-heading">
+                        <h3 id="form-heading">Send us a Message</h3>
+                        <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required aria-required="true" minlength="2" placeholder="Enter your full name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required aria-required="true" placeholder="Enter your email address">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="5" required aria-required="true" placeholder="Tell us what's on your mind..." minlength="10"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section" aria-labelledby="map-heading">
+            <div class="container">
+                <h2 id="map-heading">Find Us</h2>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3148.132366464885!2d145.0673899764816!3d-37.94103297185748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad669fa7d5c3c1f%3A0x5045675218ce7e0!2sMoorabbin%20VIC%203189%2C%20Australia!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" 
+                        class="google-map"
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Moorabbin Coffee Co. Location">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon" aria-hidden="true">☕</div>
+                        <h3>MoorabbinCoffeeCo</h3>
+                    </div>
+                    <p>Crafting exceptional coffee experiences for our community since 2020.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <address>
+                        <p>123 Main Street, Moorabbin</p>
+                        <p>Phone: <a href="tel:+61312345678">(03) 1234 5678</a></p>
+                        <p>Email: <a href="mailto:hello@moorabbincoffee.com">hello@moorabbincoffee.com</a></p>
+                    </address>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">FB</a>
+                        <a href="https://www.instagram.com/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+                        <a href="https://www.twitter.com/" class="social-link" aria-label="Twitter" target="_blank" rel="noopener">TW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Moorabbin Coffee Co. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
